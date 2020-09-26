@@ -1,5 +1,5 @@
 {
-  "name": "first-electron-app",
+  "name": "tsreact-electron-template",
   "version": "0.1.0",
   "private": true,
   "main": "public/electron.js",
@@ -7,9 +7,9 @@
   "author": {
     "name": "your name"
   },
-  "description": "first electron app with react and typescript",
+  "description": "electron, typescript and react template",
   "build": {
-    "appId": "com.example.first_electron_app",
+    "appId": "com.example.tsreact_electron_app",
     "productName": "Executable Name",
     "copyright": "Copyright © Year Author"
   },

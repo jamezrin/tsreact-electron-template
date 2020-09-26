@@ -1,8 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+type Employee<> = {
+  id: number;
+  employee_name: string;
+  employee_salary: number;
+  employee_age: number;
+  profile_image: string;
+};
+
+type EmployeeResponse<> = {
+  status: string;
+  data: Employee[];
+};
+
 const App: React.FC = () => {
+  const [employees, setEmployees] = useState<EmployeeResponse>();
+
+  useEffect(() => {
+    fetch('http://dummy.restapiexample.com/api/v1/employees')
+      .then((response) => response.json())
+      .then((data) => setEmployees(data));
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +40,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <pre>{JSON.stringify(employees)}</pre>
     </div>
   );
 };

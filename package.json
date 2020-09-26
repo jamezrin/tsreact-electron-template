@@ -14,17 +14,17 @@
     "copyright": "Copyright © Year Author"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.25",
-    "@types/react": "^16.9.19",
-    "@types/react-dom": "^16.9.5",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.4.0",
+    "@testing-library/user-event": "7.2.1",
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.25",
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
     "react-scripts": "3.3.0",
-    "typescript": "^3.7.5"
+    "typescript": "3.7.5"
   },
   "scripts": {
     "start-dev-server": "cross-env BROWSER=none react-scripts start",
@@ -50,10 +50,10 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-    "cross-env": "^7.0.0",
-    "electron": "^7.1.10",
-    "electron-builder": "^22.3.2",
-    "wait-on": "^4.0.0"
+    "concurrently": "5.1.0",
+    "cross-env": "7.0.0",
+    "electron": "7.1.10",
+    "electron-builder": "22.3.2",
+    "wait-on": "4.0.0"
   }
 }

@@ -1,5 +1,16 @@
-## First Electron app with React / Typescript example.
+# tsreact-electron-template
 
-The source code for an sample electron / react application described in https://dennistretyakov.com/first-electron-app-with-react-and-typescript
+Basic and lightweight Electron starter with React and Typescript
 
+## Features
 
+- React (unejected CRA)
+- Typescript
+- Electron Builder
+- IPC with preload script
+- Latest everything (Typescript 4+, React 16.13+, Electron 10+)
+- Nothing more, nothing less
+
+## Credit
+
+Fork of [tretyakov-d/playground-first-electron-app](https://github.com/tretyakov-d/playground-first-electron-app)

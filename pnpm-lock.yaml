@@ -1,13 +1,13 @@
 dependencies:
   '@testing-library/jest-dom': 5.11.4
-  '@testing-library/react': 11.1.0_react-dom@16.13.1+react@16.13.1
+  '@testing-library/react': 11.1.0_react-dom@16.14.0+react@16.14.0
   '@testing-library/user-event': 12.1.10
   '@types/jest': 26.0.15
   '@types/node': 14.14.2
   '@types/react': 16.9.53
   '@types/react-dom': 16.9.8
-  react: 16.13.1
-  react-dom: 16.13.1_react@16.13.1
+  react: 16.14.0
+  react-dom: 16.14.0_react@16.14.0
   react-scripts: 3.4.4_typescript@4.0.3
   typescript: 4.0.3
 devDependencies:
@@ -1763,12 +1763,12 @@ packages:
       yarn: '>=1'
     resolution:
       integrity: sha512-6RRn3epuweBODDIv3dAlWjOEHQLpGJHB2i912VS3JQtsD22+ENInhdDNl4ZZQiViLlIfFinkSET/J736ytV9sw==
-  /@testing-library/react/11.1.0_react-dom@16.13.1+react@16.13.1:
+  /@testing-library/react/11.1.0_react-dom@16.14.0+react@16.14.0:
     dependencies:
       '@babel/runtime': 7.11.2
       '@testing-library/dom': 7.26.0
-      react: 16.13.1
-      react-dom: 16.13.1_react@16.13.1
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
     engines:
       node: '>=10'
@@ -9949,18 +9949,18 @@ packages:
       node: '>=8.10'
     resolution:
       integrity: sha512-XxTbgJnYZmxuPtY3y/UV0D8/65NKkmaia4rXzViknVnZeVlklSh8u6TnaEYPfAi/Gh1TP4mEOXHI6jQOPbeakQ==
-  /react-dom/16.13.1_react@16.13.1:
+  /react-dom/16.14.0_react@16.14.0:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.7.2
-      react: 16.13.1
+      react: 16.14.0
       scheduler: 0.19.1
     dev: false
     peerDependencies:
-      react: ^16.13.1
+      react: ^16.14.0
     resolution:
-      integrity: sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+      integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   /react-error-overlay/6.0.7:
     dev: false
     resolution:
@@ -10037,7 +10037,7 @@ packages:
         optional: true
     resolution:
       integrity: sha512-7J7GZyF/QvZkKAZLneiOIhHozvOMHey7hO9cdO9u68jjhGZlI8hDdOm6UyuHofn6Ajc9Uji5I6Psm/nKNuWdyw==
-  /react/16.13.1:
+  /react/16.14.0:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -10046,7 +10046,7 @@ packages:
     engines:
       node: '>=0.10.0'
     resolution:
-      integrity: sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+      integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   /read-config-file/6.0.0:
     dependencies:
       dotenv: 8.2.0
@@ -12548,8 +12548,8 @@ specifiers:
   cross-env: 7.0.2
   electron: 10.1.4
   electron-builder: 22.9.1
-  react: 16.13.1
-  react-dom: 16.13.1
+  react: 16.14.0
+  react-dom: 16.14.0
   react-scripts: 3.4.4
   typescript: 4.0.3
   wait-on: 5.2.0

@@ -1,6 +1,6 @@
 dependencies:
   '@testing-library/jest-dom': 5.11.4
-  '@testing-library/react': 11.0.4_react-dom@16.13.1+react@16.13.1
+  '@testing-library/react': 11.1.0_react-dom@16.13.1+react@16.13.1
   '@testing-library/user-event': 12.1.7
   '@types/jest': 26.0.15
   '@types/node': 14.11.8
@@ -1731,7 +1731,7 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
-  /@testing-library/dom/7.24.3:
+  /@testing-library/dom/7.26.0:
     dependencies:
       '@babel/code-frame': 7.10.4
       '@babel/runtime': 7.11.2
@@ -1739,12 +1739,13 @@ packages:
       aria-query: 4.2.2
       chalk: 4.1.0
       dom-accessibility-api: 0.5.2
+      lz-string: 1.4.4
       pretty-format: 26.4.2
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-6eW9fUhEbR423FZvoHRwbWm9RUUByLWGayYFNVvqTnQLYvsNpBS4uEuKH9aqr3trhxFwGVneJUonehL3B1sHJw==
+      integrity: sha512-fyKFrBbS1IigaE3FV21LyeC7kSGF84lqTlSYdKmGaHuK2eYQ/bXVPM5vAa2wx/AU1iPD6oQHsxy2QQ17q9AMCg==
   /@testing-library/jest-dom/5.11.4:
     dependencies:
       '@babel/runtime': 7.11.2
@@ -1762,10 +1763,10 @@ packages:
       yarn: '>=1'
     resolution:
       integrity: sha512-6RRn3epuweBODDIv3dAlWjOEHQLpGJHB2i912VS3JQtsD22+ENInhdDNl4ZZQiViLlIfFinkSET/J736ytV9sw==
-  /@testing-library/react/11.0.4_react-dom@16.13.1+react@16.13.1:
+  /@testing-library/react/11.1.0_react-dom@16.13.1+react@16.13.1:
     dependencies:
       '@babel/runtime': 7.11.2
-      '@testing-library/dom': 7.24.3
+      '@testing-library/dom': 7.26.0
       react: 16.13.1
       react-dom: 16.13.1_react@16.13.1
     dev: false
@@ -1775,7 +1776,7 @@ packages:
       react: '*'
       react-dom: '*'
     resolution:
-      integrity: sha512-U0fZO2zxm7M0CB5h1+lh31lbAwMSmDMEMGpMT3BUPJwIjDEKYWOV4dx7lb3x2Ue0Pyt77gmz/VropuJnSz/Iew==
+      integrity: sha512-Nfz58jGzW0tgg3irmTB7sa02JLkLnCk+QN3XG6WiaGQYb0Qc4Ok00aujgjdxlIQWZHbb4Zj5ZOIeE9yKFSs4sA==
   /@testing-library/user-event/12.1.7:
     dependencies:
       '@babel/runtime': 7.11.2
@@ -7759,6 +7760,11 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  /lz-string/1.4.4:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=
   /make-dir/2.1.0:
     dependencies:
       pify: 4.0.1
@@ -12532,7 +12538,7 @@ packages:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
   '@testing-library/jest-dom': 5.11.4
-  '@testing-library/react': 11.0.4
+  '@testing-library/react': 11.1.0
   '@testing-library/user-event': 12.1.7
   '@types/jest': 26.0.15
   '@types/node': 14.11.8

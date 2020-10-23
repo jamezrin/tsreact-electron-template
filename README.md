@@ -8,7 +8,7 @@ Basic and lightweight Electron starter with React and Typescript
 - Typescript
 - Electron Builder
 - IPC with preload script
-- Latest everything (Typescript 4+, React 16.13+, Electron 10+)
+- Latest everything (Typescript 4+, React 17+, Electron 10+)
 - Nothing more, nothing less
 
 ## Credit

@@ -4,7 +4,7 @@ dependencies:
   '@testing-library/user-event': 12.1.10
   '@types/jest': 26.0.15
   '@types/node': 14.14.6
-  '@types/react': 16.14.1
+  '@types/react': 17.0.0
   '@types/react-dom': 16.9.9
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
@@ -2031,12 +2031,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-jE16FNWO3Logq/Lf+yvEAjKzhpST/Eac8EMd1i4dgZdMczfgqC8EjpxwNgEe3SExHYLliabXDh9DEhhqnlXJhg==
-  /@types/react/16.14.1:
-    dependencies:
-      '@types/prop-types': 15.7.3
-    dev: false
-    resolution:
-      integrity: sha512-32mxrbX62m5b+lMTSzucFKNIr8Eq4T6T3rDVxYzKqyRwyfnPcwZppWW0YXUlPNPUE+r6phBtHXYRgr8ad/Zl9A==
   /@types/react/16.9.55:
     dependencies:
       '@types/prop-types': 15.7.3
@@ -2044,6 +2038,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-6KLe6lkILeRwyyy7yG9rULKJ0sXplUsl98MGoCfpteXf9sPWFWWMknDcsvubcpaTdBuxtsLF6HDUwdApZL/xIg==
+  /@types/react/17.0.0:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      csstype: 3.0.3
+    dev: false
+    resolution:
+      integrity: sha512-aj/L7RIMsRlWML3YB6KZiXB3fV2t41+5RBGYF8z+tAKU43Px8C3cYUZsDvf1/+Bm4FK21QWBrDutu8ZJ/70qOw==
   /@types/resolve/0.0.8:
     dependencies:
       '@types/node': 14.14.2
@@ -13210,7 +13211,7 @@ specifiers:
   '@testing-library/user-event': 12.1.10
   '@types/jest': 26.0.15
   '@types/node': 14.14.6
-  '@types/react': 16.14.1
+  '@types/react': 17.0.0
   '@types/react-dom': 16.9.9
   concurrently: 5.3.0
   cross-env: 7.0.2

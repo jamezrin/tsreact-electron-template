@@ -13,7 +13,7 @@ dependencies:
 devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.0.3
+  electron: 11.0.4
   electron-builder: 22.9.1
   wait-on: 5.2.0
 lockfileVersion: 5.2
@@ -4360,6 +4360,7 @@ packages:
   /debug/4.3.0:
     dependencies:
       ms: 2.1.2
+    deprecated: 'Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)'
     engines:
       node: '>=6.0'
     peerDependencies:
@@ -4373,6 +4374,7 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 6.1.0
+    deprecated: 'Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)'
     dev: false
     engines:
       node: '>=6.0'
@@ -4778,7 +4780,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==
-  /electron/11.0.3:
+  /electron/11.0.4:
     dependencies:
       '@electron/get': 1.12.2
       '@types/node': 12.12.62
@@ -4789,7 +4791,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-nNfbLi7Q1xfJXOEO2adck5TS6asY4Jxc332E4Te8XfQ9hcaC3GiCdeEqk9FndNCwxhJA5Lr9jfSGRTwWebFa/w==
+      integrity: sha512-ipfQ28Km52iuDSe9VK0G5uuyxi8qy8szg+01kQTRXZFCLlpgsgU+vQxWkld2tkhXWdu+H3dmgYHvWtoijOvhjw==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -13066,7 +13068,7 @@ specifiers:
   '@types/react-dom': 17.0.0
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.0.3
+  electron: 11.0.4
   electron-builder: 22.9.1
   react: 17.0.1
   react-dom: 17.0.1

@@ -2,7 +2,7 @@ dependencies:
   '@testing-library/jest-dom': 5.11.6
   '@testing-library/react': 11.2.2_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.5.0
-  '@types/jest': 26.0.16
+  '@types/jest': 26.0.17
   '@types/node': 14.14.10
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0
@@ -1931,13 +1931,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-s2VMReFXRg9XXxV+CW9e5Nz8fH2K1aEhwgjUqPPbQd7g95T0laAcvLv032EhFHIa5GHsZ8W7iJEQVaJq6k3Gog==
-  /@types/jest/26.0.16:
+  /@types/jest/26.0.17:
     dependencies:
       jest-diff: 26.6.1
       pretty-format: 26.6.2
     dev: false
     resolution:
-      integrity: sha512-Gp12+7tmKCgv9JjtltxUXokohCAEZfpJaEW5tn871SGRp8I+bRWBonQO7vW5NHwnAHe5dd50+Q4zyKuN35i09g==
+      integrity: sha512-5sy3dHuiT/nJGM0XZ8ozFgdR4Y/gmi89n2OCDthTULSi8nG3YdcSDVuxYT3X7eN62NGXWJYz2oNOpDp/aIaynQ==
   /@types/json-schema/7.0.6:
     dev: false
     resolution:
@@ -13062,7 +13062,7 @@ specifiers:
   '@testing-library/jest-dom': 5.11.6
   '@testing-library/react': 11.2.2
   '@testing-library/user-event': 12.5.0
-  '@types/jest': 26.0.16
+  '@types/jest': 26.0.17
   '@types/node': 14.14.10
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0

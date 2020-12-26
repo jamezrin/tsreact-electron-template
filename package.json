@@ -57,6 +57,6 @@
     "cross-env": "7.0.3",
     "electron": "11.1.1",
     "electron-builder": "22.9.1",
-    "wait-on": "5.2.0"
+    "wait-on": "5.2.1"
   }
 }

@@ -3,7 +3,7 @@ dependencies:
   '@testing-library/react': 11.2.2_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.0
   '@types/jest': 26.0.19
-  '@types/node': 14.14.16
+  '@types/node': 14.14.17
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0
   react: 17.0.1
@@ -1930,10 +1930,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ASH8OPHMNlkdjrEdmoILmzFfsJICvhBsFfAum4aKZ/9U4B6M6tTmTPh+f3ttWdD74CEGV5XvXWkbyfSdXaTd7g==
-  /@types/node/14.14.16:
+  /@types/node/14.14.17:
     dev: false
     resolution:
-      integrity: sha512-naXYePhweTi+BMv11TgioE2/FXU4fSl29HAH1ffxVciNsH3rYXjNP2yM8wqmSm7jS20gM8TIklKiTen+1iVncw==
+      integrity: sha512-G0lD1/7qD60TJ/mZmhog76k7NcpLWkPVGgzkRy3CTlnFu4LUQh5v2Wa661z6vnXmD8EQrnALUyf0VRtrACYztw==
   /@types/node/14.14.9:
     dev: false
     resolution:
@@ -12989,7 +12989,7 @@ specifiers:
   '@testing-library/react': 11.2.2
   '@testing-library/user-event': 12.6.0
   '@types/jest': 26.0.19
-  '@types/node': 14.14.16
+  '@types/node': 14.14.17
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0
   concurrently: 5.3.0

@@ -1,5 +1,5 @@
 dependencies:
-  '@testing-library/jest-dom': 5.11.7
+  '@testing-library/jest-dom': 5.11.8
   '@testing-library/react': 11.2.2_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.0
   '@types/jest': 26.0.19
@@ -1759,7 +1759,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-acv3l6kDwZkQif/YqJjstT3ks5aaI33uxGNVIQmdKzbZ2eMKgg3EV2tB84GDdc72k3Kjhl6mO8yUt6StVIdRDg==
-  /@testing-library/jest-dom/5.11.7:
+  /@testing-library/jest-dom/5.11.8:
     dependencies:
       '@babel/runtime': 7.12.5
       '@types/testing-library__jest-dom': 5.9.3
@@ -1775,7 +1775,7 @@ packages:
       npm: '>=6'
       yarn: '>=1'
     resolution:
-      integrity: sha512-EMU0upXVGTaloWIQNdf3+Q4YMuGFaZQUYEQwdJJ5Pq33uL65rIeMLbv23jC6aCVnxiqNYCOhurIt85ntvoqaag==
+      integrity: sha512-ScyKrWQM5xNcr79PkSewnA79CLaoxVskE+f7knTOhDD9ftZSA1Jw8mj+pneqhEu3x37ncNfW84NUr7lqK+mXjA==
   /@testing-library/react/11.2.2_react-dom@17.0.1+react@17.0.1:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -12985,7 +12985,7 @@ packages:
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
-  '@testing-library/jest-dom': 5.11.7
+  '@testing-library/jest-dom': 5.11.8
   '@testing-library/react': 11.2.2
   '@testing-library/user-event': 12.6.0
   '@types/jest': 26.0.19

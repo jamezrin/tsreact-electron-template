@@ -2,7 +2,7 @@ dependencies:
   '@testing-library/jest-dom': 5.11.8
   '@testing-library/react': 11.2.2_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.6.0
-  '@types/jest': 26.0.19
+  '@types/jest': 26.0.20
   '@types/node': 14.14.20
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0
@@ -1464,7 +1464,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 14.14.12
+      '@types/node': 14.14.20
       '@types/yargs': 15.0.7
       chalk: 4.1.0
     dev: false
@@ -1906,6 +1906,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-jqHoirTG61fee6v6rwbnEuKhpSKih0tuhqeFbCmMmErhtu3BYlOZaXWjffgOstMM4S/3iQD31lI5bGLTrs97yQ==
+  /@types/jest/26.0.20:
+    dependencies:
+      jest-diff: 26.6.1
+      pretty-format: 26.6.2
+    dev: false
+    resolution:
+      integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==
   /@types/json-schema/7.0.6:
     dev: false
     resolution:
@@ -1926,10 +1933,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-KPcKqKm5UKDkaYPTuXSx8wEP7vE9GnuaXIZKijwRYcePpZFDVuy2a57LarFKiORbHOuTOOwYzxVxcUzsh2P2Pw==
-  /@types/node/14.14.12:
-    dev: false
-    resolution:
-      integrity: sha512-ASH8OPHMNlkdjrEdmoILmzFfsJICvhBsFfAum4aKZ/9U4B6M6tTmTPh+f3ttWdD74CEGV5XvXWkbyfSdXaTd7g==
   /@types/node/14.14.20:
     dev: false
     resolution:
@@ -12988,7 +12991,7 @@ specifiers:
   '@testing-library/jest-dom': 5.11.8
   '@testing-library/react': 11.2.2
   '@testing-library/user-event': 12.6.0
-  '@types/jest': 26.0.19
+  '@types/jest': 26.0.20
   '@types/node': 14.14.20
   '@types/react': 17.0.0
   '@types/react-dom': 17.0.0

@@ -13,7 +13,7 @@ dependencies:
 devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.1.1
+  electron: 11.2.0
   electron-builder: 22.9.1
   wait-on: 5.2.1
 lockfileVersion: 5.2
@@ -4743,7 +4743,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==
-  /electron/11.1.1:
+  /electron/11.2.0:
     dependencies:
       '@electron/get': 1.12.2
       '@types/node': 12.12.62
@@ -4754,7 +4754,7 @@ packages:
     hasBin: true
     requiresBuild: true
     resolution:
-      integrity: sha512-tlbex3xosJgfileN6BAQRotevPRXB/wQIq48QeQ08tUJJrXwE72c8smsM/hbHx5eDgnbfJ2G3a60PmRjHU2NhA==
+      integrity: sha512-weszOPAJPoPu6ozL7vR9enXmaDSqH+KE9iZODfbGdnFgtVfVdfyedjlvEGIUJkLMPXM1y/QWwCl2dINzr0Jq5Q==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -12990,7 +12990,7 @@ specifiers:
   '@types/react-dom': 17.0.0
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.1.1
+  electron: 11.2.0
   electron-builder: 22.9.1
   react: 17.0.1
   react-dom: 17.0.1

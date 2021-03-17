@@ -15,7 +15,7 @@ devDependencies:
   cross-env: 7.0.3
   electron: 11.3.0
   electron-builder: 22.10.5
-  wait-on: 5.2.1
+  wait-on: 5.3.0
 lockfileVersion: 5.2
 packages:
   /7zip-bin/5.0.3:
@@ -8098,6 +8098,10 @@ packages:
   /lodash/4.17.20:
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+  /lodash/4.17.21:
+    dev: true
+    resolution:
+      integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
   /loglevel/1.7.0:
     dev: false
     engines:
@@ -12623,11 +12627,11 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-4tzD0mF8iSiMiNs30BiLO3EpfGLZUT2MSX/G+o7ZywDzliWQ3OPtTZ0PTC3B3ca1UAf4cJMHB+2Bf56EriJuRA==
-  /wait-on/5.2.1:
+  /wait-on/5.3.0:
     dependencies:
       axios: 0.21.1
       joi: 17.3.0
-      lodash: 4.17.20
+      lodash: 4.17.21
       minimist: 1.2.5
       rxjs: 6.6.3
     dev: true
@@ -12635,7 +12639,7 @@ packages:
       node: '>=8.9.0'
     hasBin: true
     resolution:
-      integrity: sha512-H2F986kNWMU9hKlI9l/ppO6tN8ZSJd35yBljMLa1/vjzWP++Qh6aXyt77/u7ySJFZQqBtQxnvm/xgG48AObXcw==
+      integrity: sha512-DwrHrnTK+/0QFaB9a8Ol5Lna3k7WvUR4jzSKmz0YaPBpuN2sACyiPVKVfj6ejnjcajAcvn3wlbTyMIn9AZouOg==
   /walker/1.0.7:
     dependencies:
       makeerror: 1.0.11
@@ -13260,4 +13264,4 @@ specifiers:
   react-dom: 17.0.1
   react-scripts: 4.0.3
   typescript: 4.2.3
-  wait-on: 5.2.1
+  wait-on: 5.3.0

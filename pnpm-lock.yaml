@@ -2,7 +2,7 @@ dependencies:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5_react-dom@17.0.1+react@17.0.1
   '@testing-library/user-event': 12.8.3
-  '@types/jest': 26.0.20
+  '@types/jest': 26.0.21
   '@types/node': 14.14.34
   '@types/react': 17.0.3
   '@types/react-dom': 17.0.2
@@ -1486,8 +1486,8 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 14.14.20
-      '@types/yargs': 15.0.7
+      '@types/node': 14.14.34
+      '@types/yargs': 15.0.13
       chalk: 4.1.0
     dev: false
     engines:
@@ -1935,6 +1935,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==
+  /@types/jest/26.0.21:
+    dependencies:
+      jest-diff: 26.6.1
+      pretty-format: 26.6.2
+    dev: false
+    resolution:
+      integrity: sha512-ab9TyM/69yg7eew9eOwKMUmvIZAKEGZYlq/dhe5/0IMUd/QLJv5ldRMdddSn+u22N13FP3s5jYyktxuBwY0kDA==
   /@types/json-schema/7.0.6:
     dev: false
     resolution:
@@ -1950,10 +1957,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-qAfo81CsD7yQIM9mVyh6B/U47li5g7cfpVQEDMfQeF8pSZVwzbhwU3crc0qG4DmpsebpJPR49AKOExQyJ05Cpg==
-  /@types/node/14.14.20:
-    dev: false
-    resolution:
-      integrity: sha512-Y93R97Ouif9JEOWPIUyU+eyIdyRqQR0I8Ez1dzku4hDx34NWh4HbtIc3WNzwB1Y9ULvNGeu5B8h8bVL5cAk4/A==
   /@types/node/14.14.31:
     resolution:
       integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
@@ -2067,7 +2070,6 @@ packages:
   /@types/yargs/15.0.13:
     dependencies:
       '@types/yargs-parser': 15.0.0
-    dev: true
     resolution:
       integrity: sha512-kQ5JNTrbDv3Rp5X2n/iUu37IJBDU2gsZ5R/g1/KHOOEc5IKfUFjXT6DENPGduh08I/pamwtEq4oul7gUqKTQDQ==
   /@types/yargs/15.0.7:
@@ -13242,7 +13244,7 @@ specifiers:
   '@testing-library/jest-dom': 5.11.9
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.8.3
-  '@types/jest': 26.0.20
+  '@types/jest': 26.0.21
   '@types/node': 14.14.34
   '@types/react': 17.0.3
   '@types/react-dom': 17.0.2

@@ -1,5 +1,5 @@
 dependencies:
-  '@testing-library/jest-dom': 5.11.9
+  '@testing-library/jest-dom': 5.11.10
   '@testing-library/react': 11.2.5_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
   '@types/jest': 26.0.21
@@ -1789,7 +1789,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-acv3l6kDwZkQif/YqJjstT3ks5aaI33uxGNVIQmdKzbZ2eMKgg3EV2tB84GDdc72k3Kjhl6mO8yUt6StVIdRDg==
-  /@testing-library/jest-dom/5.11.9:
+  /@testing-library/jest-dom/5.11.10:
     dependencies:
       '@babel/runtime': 7.12.5
       '@types/testing-library__jest-dom': 5.9.3
@@ -1797,7 +1797,7 @@ packages:
       chalk: 3.0.0
       css: 3.0.0
       css.escape: 1.5.1
-      lodash: 4.17.20
+      lodash: 4.17.21
       redent: 3.0.0
     dev: false
     engines:
@@ -1805,7 +1805,7 @@ packages:
       npm: '>=6'
       yarn: '>=1'
     resolution:
-      integrity: sha512-Mn2gnA9d1wStlAIT2NU8J15LNob0YFBVjs2aEQ3j8rsfRQo+lAs7/ui1i2TGaJjapLmuNPLTsrm+nPjmZDwpcQ==
+      integrity: sha512-FuKiq5xuk44Fqm0000Z9w0hjOdwZRNzgx7xGGxQYepWFZy+OYUMOT/wPI4nLYXCaVltNVpU1W/qmD88wLWDsqQ==
   /@testing-library/react/11.2.5_react-dom@17.0.2+react@17.0.2:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -1928,13 +1928,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-nwKNbvnwJ2/mndE9ItP/zc2TCzw6uuodnF4EHYWD+gCQDVBuRQL5UzbZD0/ezy1iKsFU2ZQiDqg4M9dN4+wZgA==
-  /@types/jest/26.0.20:
-    dependencies:
-      jest-diff: 26.6.1
-      pretty-format: 26.6.2
-    dev: false
-    resolution:
-      integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==
   /@types/jest/26.0.21:
     dependencies:
       jest-diff: 26.6.1
@@ -2034,7 +2027,7 @@ packages:
       integrity: sha512-W+bw9ds02rAQaMvaLYxAbJ6cvguW/iJXNT6lTssS1ps6QdrMKttqEAMEG/b5CR8TZl3/L7/lH0ZV5nNR1LXikA==
   /@types/testing-library__jest-dom/5.9.3:
     dependencies:
-      '@types/jest': 26.0.20
+      '@types/jest': 26.0.21
     dev: false
     resolution:
       integrity: sha512-5YxiCFA2vk0cxq2LIxYgHBpFlnJvMH9bkUIVNin+1GXT+LZgVOgXBeEyyo2ZrGXMO/KWe1ZV3p7Kb6LJAvJasw==
@@ -8100,7 +8093,6 @@ packages:
     resolution:
       integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
   /lodash/4.17.21:
-    dev: true
     resolution:
       integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
   /loglevel/1.7.0:
@@ -13251,7 +13243,7 @@ packages:
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
-  '@testing-library/jest-dom': 5.11.9
+  '@testing-library/jest-dom': 5.11.10
   '@testing-library/react': 11.2.5
   '@testing-library/user-event': 12.8.3
   '@types/jest': 26.0.21

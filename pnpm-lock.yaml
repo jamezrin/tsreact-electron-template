@@ -1,6 +1,6 @@
 dependencies:
   '@testing-library/jest-dom': 5.11.10
-  '@testing-library/react': 11.2.5_react-dom@17.0.2+react@17.0.2
+  '@testing-library/react': 11.2.6_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
   '@types/jest': 26.0.22
   '@types/node': 14.14.37
@@ -223,10 +223,6 @@ packages:
     dev: false
     resolution:
       integrity: sha512-74Vejvp6mHkGE+m+k5vHY93FX2cAtrw1zXrZXRlG4l410Nm9PxfEiVTn1PjDPV5SnmieiueY4AFg2xqhNFuuZg==
-  /@babel/helper-validator-identifier/7.10.4:
-    dev: false
-    resolution:
-      integrity: sha512-3U9y+43hz7ZM+rzG24Qe2mufW5KhvFg/NhnNph+i9mgCtdTCtMJuI1TMkrIUiK7Ix4PYlRF9I5dhqaLYA/ADXw==
   /@babel/helper-validator-identifier/7.12.11:
     dev: false
     resolution:
@@ -254,7 +250,7 @@ packages:
       integrity: sha512-9JoDSBGoWtmbay98efmT2+mySkwjzeFeAL9BuWNoVQpkPFQF8SIIFUfY5os9u8wVzglzoiPRSW7cuJmBDUt43g==
   /@babel/highlight/7.10.4:
     dependencies:
-      '@babel/helper-validator-identifier': 7.10.4
+      '@babel/helper-validator-identifier': 7.12.11
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: false
@@ -1806,7 +1802,7 @@ packages:
       yarn: '>=1'
     resolution:
       integrity: sha512-FuKiq5xuk44Fqm0000Z9w0hjOdwZRNzgx7xGGxQYepWFZy+OYUMOT/wPI4nLYXCaVltNVpU1W/qmD88wLWDsqQ==
-  /@testing-library/react/11.2.5_react-dom@17.0.2+react@17.0.2:
+  /@testing-library/react/11.2.6_react-dom@17.0.2+react@17.0.2:
     dependencies:
       '@babel/runtime': 7.12.5
       '@testing-library/dom': 7.28.1
@@ -1819,7 +1815,7 @@ packages:
       react: '*'
       react-dom: '*'
     resolution:
-      integrity: sha512-yEx7oIa/UWLe2F2dqK0FtMF9sJWNXD+2PPtp39BvE0Kh9MJ9Kl0HrZAgEuhUJR+Lx8Di6Xz+rKwSdEPY2UV8ZQ==
+      integrity: sha512-TXMCg0jT8xmuU8BkKMtp8l7Z50Ykew5WNX8UoIKTaLFwKkP2+1YDhOLA2Ga3wY4x29jyntk7EWfum0kjlYiSjQ==
   /@testing-library/user-event/12.8.3:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -13251,7 +13247,7 @@ packages:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
   '@testing-library/jest-dom': 5.11.10
-  '@testing-library/react': 11.2.5
+  '@testing-library/react': 11.2.6
   '@testing-library/user-event': 12.8.3
   '@types/jest': 26.0.22
   '@types/node': 14.14.37

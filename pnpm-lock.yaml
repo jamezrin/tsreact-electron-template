@@ -10,7 +10,7 @@ specifiers:
   '@types/react-dom': 17.0.3
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.5
+  electron: 11.4.6
   electron-builder: 22.11.1
   react: 17.0.2
   react-dom: 17.0.2
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.5
+  electron: 11.4.6
   electron-builder: 22.11.1
   wait-on: 5.3.0
 
@@ -4831,8 +4831,8 @@ packages:
     resolution: {integrity: sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==}
     dev: false
 
-  /electron/11.4.5:
-    resolution: {integrity: sha512-F1s70t8ZVU7PuXuP7wxbF5muOIRulWvzRAE8MiD5PTomaOar5+I+eR3jD20bs13Z5GdyOQu148WQt8r9h+ALTA==}
+  /electron/11.4.6:
+    resolution: {integrity: sha512-WN7zUwaAmcB1lXyyaMxPsNWAFCpRMDltQb4zCjvoD5TBBoePcjd6UwyVUD93pSKJXjmWoae8PbZWrbZlXowcSg==}
     engines: {node: '>= 8.6'}
     hasBin: true
     requiresBuild: true

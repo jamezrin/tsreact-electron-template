@@ -11,7 +11,7 @@ specifiers:
   concurrently: 5.3.0
   cross-env: 7.0.3
   electron: 11.4.6
-  electron-builder: 22.11.1
+  electron-builder: 22.11.2
   react: 17.0.2
   react-dom: 17.0.2
   react-scripts: 4.0.3
@@ -35,7 +35,7 @@ devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
   electron: 11.4.6
-  electron-builder: 22.11.1
+  electron-builder: 22.11.2
   wait-on: 5.3.0
 
 packages:
@@ -2610,8 +2610,8 @@ packages:
     resolution: {integrity: sha512-ighVe9G+bT1ENGdp9ecO1P+94vv/f+FUwaI+XkNzeg9bYF8Oi3BQ+mJuxS00UgyHs8luuOzjzC+qnAtdb43Mpg==}
     dev: true
 
-  /app-builder-lib/22.11.1:
-    resolution: {integrity: sha512-oHpXomred4MeDzdLBMNuBtyEMiskX4wwQE+23CKFMqVfLEzpRwErZW+xegFi8aa/rhAOdED0THSHTcIr5rylIQ==}
+  /app-builder-lib/22.11.2:
+    resolution: {integrity: sha512-uX/kChjxgCLWQRp2RhwMfP1MpRFXtOQE7QrLQLFt01ynLPhgJN8A3TX2MFapCO7ur9DkIj8oZZEyBbLrXbTr1Q==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@develar/schema-utils': 2.6.5
@@ -2620,16 +2620,16 @@ packages:
       7zip-bin: 5.1.1
       async-exit-hook: 2.0.1
       bluebird-lst: 1.0.9
-      builder-util: 22.11.1
+      builder-util: 22.11.2
       builder-util-runtime: 8.7.4
       chromium-pickle-js: 0.2.0
       debug: 4.3.2
       ejs: 3.1.6
-      electron-publish: 22.11.1
+      electron-publish: 22.11.2
       fs-extra: 9.1.0
       hosted-git-info: 4.0.2
       is-ci: 3.0.0
-      istextorbinary: 5.12.0
+      isbinaryfile: 4.0.8
       js-yaml: 4.0.0
       lazy-val: 1.0.4
       minimatch: 3.0.4
@@ -3111,11 +3111,6 @@ packages:
     dev: false
     optional: true
 
-  /binaryextensions/4.15.0:
-    resolution: {integrity: sha512-MkUl3szxXolQ2scI1PM14WOT951KnaTNJ0eMKg7WzOI4kvSxyNo/Cygx4LOBNhwyINhAuSQpJW1rYD9aBSxGaw==}
-    engines: {node: '>=0.8'}
-    dev: true
-
   /bindings/1.5.0:
     resolution: {integrity: sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==}
     dependencies:
@@ -3356,8 +3351,8 @@ packages:
       - supports-color
     dev: true
 
-  /builder-util/22.11.1:
-    resolution: {integrity: sha512-3U/ALRUA/neNxGIP/G06sqAiMmCjAgIrRN2wWdAop6s/WKpzYRh+8alFUCLyfSanmxXjnzfJt9dy4TL+HHh6Rw==}
+  /builder-util/22.11.2:
+    resolution: {integrity: sha512-n5QkoRcNKy7KrBO8trpk7WRgdpBnOu68KVm+roSbDtZaW1qAmBplyThxnczcvjByVwD+UrsKd62eNIARiz2jyw==}
     dependencies:
       '@types/debug': 4.1.5
       '@types/fs-extra': 9.0.8
@@ -4593,11 +4588,11 @@ packages:
       path-type: 4.0.0
     dev: false
 
-  /dmg-builder/22.11.1:
-    resolution: {integrity: sha512-FZIIYpEs/ZfKJbRKjTjpQAHJKjRBlgd6QDUEAuC6OuyHUwwrflQay1rNTwp7spqbu9HDHipiQevX/e8dFmkQmw==}
+  /dmg-builder/22.11.2:
+    resolution: {integrity: sha512-fsPNFjoRhZwVkRsFbQSM8Vp3LytupEeptCoLpmuPG9IqOAbBVaBP1WVFEeAU7pn0A/afGPZ14o22WEUMxkflJg==}
     dependencies:
-      app-builder-lib: 22.11.1
-      builder-util: 22.11.1
+      app-builder-lib: 22.11.2
+      builder-util: 22.11.2
       builder-util-runtime: 8.7.4
       fs-extra: 9.1.0
       iconv-lite: 0.6.2
@@ -4766,14 +4761,6 @@ packages:
       safer-buffer: 2.1.2
     dev: false
 
-  /editions/6.1.0:
-    resolution: {integrity: sha512-h6nWEyIocfgho9J3sTSuhU/WoFOu1hTX75rPBebNrbF38Y9QFDjCDizYXdikHTySW7Y3mSxli8bpDz9RAtc7rA==}
-    engines: {node: '>=4'}
-    dependencies:
-      errlop: 4.1.0
-      version-range: 1.1.0
-    dev: true
-
   /ee-first/1.1.1:
     resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=}
     dev: false
@@ -4792,17 +4779,17 @@ packages:
       jake: 10.8.2
     dev: true
 
-  /electron-builder/22.11.1:
-    resolution: {integrity: sha512-IbAhv31idKzTR8KNQ+AIRf9J5vfU+9PzpG2STKHjYYWwGhfhZ5H4YfR0xH8xiwI4gaL1uTrfiq7fnpQxafhF2A==}
+  /electron-builder/22.11.2:
+    resolution: {integrity: sha512-nxxI9PXuzSiAeEqaiD+n24xCNBU4iS4jsf/nNfpnHR9+ytH4szB0sGEWRZk+0/2yDnBkLQ+TGp1gsEx18Matsw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
       '@types/yargs': 16.0.1
-      app-builder-lib: 22.11.1
-      builder-util: 22.11.1
+      app-builder-lib: 22.11.2
+      builder-util: 22.11.2
       builder-util-runtime: 8.7.4
       chalk: 4.1.0
-      dmg-builder: 22.11.1
+      dmg-builder: 22.11.2
       fs-extra: 9.1.0
       is-ci: 3.0.0
       lazy-val: 1.0.4
@@ -4813,11 +4800,11 @@ packages:
       - supports-color
     dev: true
 
-  /electron-publish/22.11.1:
-    resolution: {integrity: sha512-M8aXlIuP0QcGCdSzMvv67m8sZYdRpXFfiGpFbZOXJlO3Io/3jkNvbnUMVfhbamlmYrQKNSRJzB7te/pn+qYneA==}
+  /electron-publish/22.11.2:
+    resolution: {integrity: sha512-RSrDyYL407QRryIN0QhQGJc5PjHK4gdCwTHYTH5Zl43753ZLVUMRmzW768H0Tb8hVM2VOymy8pNnQAHB5egoiQ==}
     dependencies:
       '@types/fs-extra': 9.0.8
-      builder-util: 22.11.1
+      builder-util: 22.11.2
       builder-util-runtime: 8.7.4
       chalk: 4.1.0
       fs-extra: 9.1.0
@@ -4917,11 +4904,6 @@ packages:
   /env-paths/2.2.0:
     resolution: {integrity: sha512-6u0VYSCo/OW6IoD5WCLLy9JUGARbamfSavcNXry/eu8aHVFei6CD3Sw+VGX5alea1i9pgPHW0mbu6Xj0uBh7gA==}
     engines: {node: '>=6'}
-    dev: true
-
-  /errlop/4.1.0:
-    resolution: {integrity: sha512-vul6gGBuVt0M2TPi1/WrcL86+Hb3Q2Tpu3TME3sbVhZrYf7J1ZMHCodI25RQKCVurh56qTfvgM0p3w5cT4reSQ==}
-    engines: {node: '>=4'}
     dev: true
 
   /errno/0.1.7:
@@ -6870,6 +6852,11 @@ packages:
   /isarray/1.0.0:
     resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
 
+  /isbinaryfile/4.0.8:
+    resolution: {integrity: sha512-53h6XFniq77YdW+spoRrebh0mnmTxRPTlcuIArO57lmMdq4uBKFKaeTjnb92oYWrSn/LVL+LT+Hap2tFQj8V+w==}
+    engines: {node: '>= 8.0.0'}
+    dev: true
+
   /isexe/2.0.0:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
 
@@ -6933,15 +6920,6 @@ packages:
       html-escaper: 2.0.2
       istanbul-lib-report: 3.0.0
     dev: false
-
-  /istextorbinary/5.12.0:
-    resolution: {integrity: sha512-wLDRWD7qpNTYubk04+q3en1+XZGS4vYWK0+SxNSXJLaITMMEK+J3o/TlOMyULeH1qozVZ9uUkKcyMA8odyxz8w==}
-    engines: {node: '>=10'}
-    dependencies:
-      binaryextensions: 4.15.0
-      editions: 6.1.0
-      textextensions: 5.12.0
-    dev: true
 
   /jake/10.8.2:
     resolution: {integrity: sha512-eLpKyrfG3mzvGE2Du8VoPbeSkRry093+tyNjdYaBbJS9v17knImYGNXQCUV0gLxQtF82m3E8iRb/wdSQZLoq7A==}
@@ -11447,11 +11425,6 @@ packages:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
     dev: false
 
-  /textextensions/5.12.0:
-    resolution: {integrity: sha512-IYogUDaP65IXboCiPPC0jTLLBzYlhhw2Y4b0a2trPgbHNGGGEfuHE6tds+yDcCf4mpNDaGISFzwSSezcXt+d6w==}
-    engines: {node: '>=0.8'}
-    dev: true
-
   /throat/5.0.0:
     resolution: {integrity: sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA==}
     dev: false
@@ -11984,18 +11957,6 @@ packages:
       assert-plus: 1.0.0
       core-util-is: 1.0.2
       extsprintf: 1.3.0
-
-  /version-compare/1.1.0:
-    resolution: {integrity: sha512-zVKtPOJTC9x23lzS4+4D7J+drq80BXVYAmObnr5zqxxFVH7OffJ1lJlAS7LYsQNV56jx/wtbw0UV7XHLrvd6kQ==}
-    engines: {node: '>=4'}
-    dev: true
-
-  /version-range/1.1.0:
-    resolution: {integrity: sha512-R1Ggfg2EXamrnrV3TkZ6yBNgITDbclB3viwSjbZ3+eK0VVNK4ajkYJTnDz5N0bIMYDtK9MUBvXJUnKO5RWWJ6w==}
-    engines: {node: '>=4'}
-    dependencies:
-      version-compare: 1.1.0
-    dev: true
 
   /vm-browserify/1.1.2:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==}

@@ -7,7 +7,7 @@ specifiers:
   '@types/jest': 26.0.23
   '@types/node': 14.14.45
   '@types/react': 17.0.5
-  '@types/react-dom': 17.0.4
+  '@types/react-dom': 17.0.5
   concurrently: 5.3.0
   cross-env: 7.0.3
   electron: 11.4.6
@@ -25,7 +25,7 @@ dependencies:
   '@types/jest': 26.0.23
   '@types/node': 14.14.45
   '@types/react': 17.0.5
-  '@types/react-dom': 17.0.4
+  '@types/react-dom': 17.0.5
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-scripts: 4.0.3_react@17.0.2+typescript@4.2.4
@@ -2049,8 +2049,8 @@ packages:
     resolution: {integrity: sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==}
     dev: false
 
-  /@types/react-dom/17.0.4:
-    resolution: {integrity: sha512-Wb6rlnPJfqbhpkvYN39y1NM/pOGGPzzIRquu0RdUMvTwgXNvASFO7pdtrtvyxGTQNb9wzBaQxXAWDdEqegZw2A==}
+  /@types/react-dom/17.0.5:
+    resolution: {integrity: sha512-ikqukEhH4H9gr4iJCmQVNzTB307kROe3XFfHAOTxOXPOw7lAoEXnM5KWTkzeANGL5Ce6ABfiMl/zJBYNi7ObmQ==}
     dependencies:
       '@types/react': 17.0.5
     dev: false

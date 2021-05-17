@@ -10,7 +10,7 @@ specifiers:
   '@types/react-dom': 17.0.5
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.6
+  electron: 11.4.7
   electron-builder: 22.11.3
   react: 17.0.2
   react-dom: 17.0.2
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.6
+  electron: 11.4.7
   electron-builder: 22.11.3
   wait-on: 5.3.0
 
@@ -4859,8 +4859,8 @@ packages:
     resolution: {integrity: sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==}
     dev: false
 
-  /electron/11.4.6:
-    resolution: {integrity: sha512-WN7zUwaAmcB1lXyyaMxPsNWAFCpRMDltQb4zCjvoD5TBBoePcjd6UwyVUD93pSKJXjmWoae8PbZWrbZlXowcSg==}
+  /electron/11.4.7:
+    resolution: {integrity: sha512-ZObBEsLrD1mIjF15tClcyDsOisOmwpE/+EcZNhBmB5N2WBjskhQHkFczNEOSTTzQ9w0kSWQUPQjLbmKQ3fD/NQ==}
     engines: {node: '>= 8.6'}
     hasBin: true
     requiresBuild: true
@@ -5971,7 +5971,7 @@ packages:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.3.4
+      semver: 7.3.5
       serialize-error: 7.0.1
     dev: true
     optional: true

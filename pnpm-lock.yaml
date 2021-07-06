@@ -4,7 +4,7 @@ specifiers:
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 11.2.7
   '@testing-library/user-event': 12.8.3
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/node': 14.17.4
   '@types/react': 17.0.13
   '@types/react-dom': 17.0.8
@@ -22,7 +22,7 @@ dependencies:
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
-  '@types/jest': 26.0.23
+  '@types/jest': 26.0.24
   '@types/node': 14.17.4
   '@types/react': 17.0.13
   '@types/react-dom': 17.0.8
@@ -1551,9 +1551,9 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.3
       '@types/istanbul-reports': 3.0.0
-      '@types/node': 14.14.41
+      '@types/node': 14.17.4
       '@types/yargs': 15.0.13
-      chalk: 4.1.0
+      chalk: 4.1.1
     dev: false
 
   /@malept/cross-spawn-promise/1.1.1:
@@ -1985,6 +1985,13 @@ packages:
       pretty-format: 26.6.2
     dev: false
 
+  /@types/jest/26.0.24:
+    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==}
+    dependencies:
+      jest-diff: 26.6.1
+      pretty-format: 26.6.2
+    dev: false
+
   /@types/json-schema/7.0.6:
     resolution: {integrity: sha512-3c+yGKvVP5Y9TYBEibGNR+kLtijnj7mYrXRg+WpFb2X9xm04g/DXYkfg4hmzJQosc9snFNUPkbYIhu+KAm6jJw==}
     dev: false
@@ -2002,10 +2009,6 @@ packages:
 
   /@types/node/14.14.31:
     resolution: {integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==}
-    dev: false
-
-  /@types/node/14.14.41:
-    resolution: {integrity: sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==}
     dev: false
 
   /@types/node/14.14.44:
@@ -7093,7 +7096,7 @@ packages:
     resolution: {integrity: sha512-BBNy/zin2m4kG5In126O8chOBxLLS/XMTuuM2+YhgyHk87ewPzKTuTJcqj3lOWOi03NNgrl+DkMeV/exdvG9gg==}
     engines: {node: '>= 10.14.2'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.1
       diff-sequences: 26.5.0
       jest-get-type: 26.3.0
       pretty-format: 26.6.2

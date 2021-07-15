@@ -10,7 +10,7 @@ specifiers:
   '@types/react-dom': 17.0.9
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.10
+  electron: 13.1.7
   electron-builder: 22.11.3
   react: 17.0.2
   react-dom: 17.0.2
@@ -34,7 +34,7 @@ dependencies:
 devDependencies:
   concurrently: 5.3.0
   cross-env: 7.0.3
-  electron: 11.4.10
+  electron: 13.1.7
   electron-builder: 22.11.3
   wait-on: 5.3.0
 
@@ -2003,10 +2003,6 @@ packages:
   /@types/minimatch/3.0.3:
     resolution: {integrity: sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==}
 
-  /@types/node/12.12.62:
-    resolution: {integrity: sha512-qAfo81CsD7yQIM9mVyh6B/U47li5g7cfpVQEDMfQeF8pSZVwzbhwU3crc0qG4DmpsebpJPR49AKOExQyJ05Cpg==}
-    dev: true
-
   /@types/node/14.14.31:
     resolution: {integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==}
     dev: false
@@ -2020,7 +2016,6 @@ packages:
 
   /@types/node/14.17.5:
     resolution: {integrity: sha512-bjqH2cX/O33jXT/UmReo2pM7DIJREPMnarixbQ57DOOzzFaI6D2+IcwaJQaJpv0M1E9TIhPCYVxrkcityLjlqA==}
-    dev: false
 
   /@types/normalize-package-data/2.4.0:
     resolution: {integrity: sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==}
@@ -4864,14 +4859,14 @@ packages:
     resolution: {integrity: sha512-oypaNmexr8w0m2GX67fGLQ0Xgsd7uXz7GcwaHZ9eW3ZdQ8uA2+V/wXmLdMTk3gcacbqQGAN7CXWG3fOkfKYftw==}
     dev: false
 
-  /electron/11.4.10:
-    resolution: {integrity: sha512-aQTRgRdHwCW68gxz9qvGCfOUvR4NBbdecLB/mEWX8fMncDFvPMmm+dq2D6zSWWVEKywmsj3+wMMVn3UV2Cl2CQ==}
+  /electron/13.1.7:
+    resolution: {integrity: sha512-sVfpP/0s6a82FK32LMuEe9L+aWZw15u3uYn9xUJArPjy4OZHteE6yM5871YCNXNiDnoCLQ5eqQWipiVgHsf8nQ==}
     engines: {node: '>= 8.6'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@electron/get': 1.12.2
-      '@types/node': 12.12.62
+      '@types/node': 14.17.5
       extract-zip: 1.7.0
     transitivePeerDependencies:
       - supports-color
